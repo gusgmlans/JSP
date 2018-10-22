@@ -52,9 +52,9 @@
 		
 		Class.forName("com.mysql.jdbc.Driver");
 		
-		String jdbcDriver = "jdbc:mysql://localhost:3306/db14hhm?useUnicode=true&characterEncoding=euckr";
-		String dbUser = "dbid14hhm";
-		String dbPass = "dbpw14hhm";
+		String jdbcDriver = "jdbc:mysql://localhost:3306/gusgmlans?useUnicode=true&characterEncoding=euckr";
+		String dbUser = "gusgmlans";
+		String dbPass = "qudtls78!!@@";
 		
 		connection = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
 		System.out.println(connection + "<-- connection");

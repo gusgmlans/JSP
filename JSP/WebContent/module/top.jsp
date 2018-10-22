@@ -20,8 +20,8 @@
 %>         
 	<!-- 로그인 전 화면 시작 -->		       	 
 	<form action = "<%=request.getContextPath()%>/user_login/login_pro.jsp" method = "post">
-		아이디: <input type="text" name="id">
-		비  번: <input type="password" name="pw">
+		아이디: <input type="text" name="id" value="id001">
+		비  번: <input type="password" name="pw" value="pw001">
 		<input type="submit" value="로그인">
 	</form><br>		   
 	<!-- 로그인 전 화면 End -->
